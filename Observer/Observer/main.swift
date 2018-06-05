@@ -97,3 +97,16 @@ let monitorTwo = MonitorTwo(subject: subject)
 
 subject.temperture = 29.0
 
+// Vehicle Observer
+
+let vehicle = Vehicle()
+let pullObserver = PullObserver(vehicle: vehicle)
+let pushObserver = PushObserver(vehicle: vehicle)
+vehicle.connect(driver: "Bruce")
+vehicle.connect(driver: "Batman")
+
+pullObserver.unsubscribe()
+vehicle.connect(driver: "Matt")
+pushObserver.unsubscribe()
+
+ RunLoop.main.run(until: Date(timeIntervalSinceNow: 5))

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		AC6B6F7720C50FD80068EF1A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6B6F7620C50FD80068EF1A /* main.swift */; };
+		AC6B6F7E20C604410068EF1A /* VehicleObservable.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6B6F7D20C604410068EF1A /* VehicleObservable.swift */; };
+		AC6B6F8020C6077C0068EF1A /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6B6F7F20C6077C0068EF1A /* Vehicle.swift */; };
+		AC6B6F8220C60DCE0068EF1A /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6B6F8120C60DCE0068EF1A /* Observer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		AC6B6F7320C50FD80068EF1A /* Observer */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Observer; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC6B6F7620C50FD80068EF1A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		AC6B6F7D20C604410068EF1A /* VehicleObservable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleObservable.swift; sourceTree = "<group>"; };
+		AC6B6F7F20C6077C0068EF1A /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		AC6B6F8120C60DCE0068EF1A /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				AC6B6F7620C50FD80068EF1A /* main.swift */,
+				AC6B6F7D20C604410068EF1A /* VehicleObservable.swift */,
+				AC6B6F7F20C6077C0068EF1A /* Vehicle.swift */,
+				AC6B6F8120C60DCE0068EF1A /* Observer.swift */,
 			);
 			path = Observer;
 			sourceTree = "<group>";
@@ -119,6 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC6B6F8020C6077C0068EF1A /* Vehicle.swift in Sources */,
+				AC6B6F8220C60DCE0068EF1A /* Observer.swift in Sources */,
+				AC6B6F7E20C604410068EF1A /* VehicleObservable.swift in Sources */,
 				AC6B6F7720C50FD80068EF1A /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
