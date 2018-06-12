@@ -143,3 +143,29 @@ espresso = Whip(beverage: espresso)
 print(espresso.getDescription())
 print(espresso.cost())
 
+// MacBook Decorator
+var macBookRegular: MacBook = MacBookRegular()
+print("Cost: $\(macBookRegular.cost), Description: \(macBookRegular.description)")
+
+macBookRegular = ProcessorUpgrade(macBook: macBookRegular)
+print("Cost: $\(macBookRegular.cost), Description: \(macBookRegular.description)")
+
+macBookRegular = SSDUpgrade(macBook: macBookRegular)
+print("Cost: $\(macBookRegular.cost), Description: \(macBookRegular.description)")
+
+macBookRegular = TouchBarUpgrade(macBook: macBookRegular)
+print("Cost: $\(macBookRegular.cost), Description: \(macBookRegular.description)")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
