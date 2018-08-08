@@ -155,17 +155,3 @@ print("Cost: $\(macBookRegular.cost), Description: \(macBookRegular.description)
 
 macBookRegular = TouchBarUpgrade(macBook: macBookRegular)
 print("Cost: $\(macBookRegular.cost), Description: \(macBookRegular.description)")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
