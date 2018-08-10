@@ -19,8 +19,8 @@ print("Hello, World!")
 
 let maintenance = AutoMaintenance(engine: V6Engine(), tire: Bridgestone(), windshield: Murano(), coolant: BlueLongLife(), battery: NissanBattery())
 
-print("Facade for basic check")
+print("# Facade for basic check #")
 maintenance.basicCheck()
 
-print("Facade for full check")
+print("# Facade for full check #")
 maintenance.fullCheck()

@@ -23,9 +23,11 @@ struct AutoMaintenance {
     }
     
     func fullCheck() {
-        basicCheck()
-        coolant.check()
+        engine.check()
         battery.check()
+        coolant.check()
+        tire.check()
+        windshield.clean()
     }
     
 }
@@ -70,7 +72,7 @@ struct Murano: Windshield {
 
 struct BlueLongLife: Coolant {
     func check() {
-        print("Check blue long life coolant")
+        print("Check Blue Long Life coolant")
     }
 }
 
