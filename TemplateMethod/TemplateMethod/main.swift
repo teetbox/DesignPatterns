@@ -8,7 +8,11 @@
 
 import Foundation
 
-print("Hello, World!")
+/*  The Template Method Pattern defines the skeleton of an algorithm in a method, deferring someo steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithm's structure.
+ 
+ */
+
+print("The Template Method Pattern")
 
 protocol Worker {
     func wakeup()
